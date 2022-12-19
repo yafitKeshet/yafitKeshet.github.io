@@ -46,7 +46,7 @@ p {
 }
 
 .container {
-  /* width: 110rem; */
+  width: 110rem;
   margin-left: auto;
   margin-right: auto;
 }
