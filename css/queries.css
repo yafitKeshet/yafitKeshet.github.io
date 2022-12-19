@@ -413,3 +413,9 @@ li .domains-sub-menu-list {
     padding: 2rem 6rem;
   }
 }
+
+@media (min-width: 320px) {
+  body {
+    background: red;
+  }
+}
