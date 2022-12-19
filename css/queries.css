@@ -365,3 +365,51 @@ li .domains-sub-menu-list {
     padding: 2rem 6rem;
   }
 }
+
+/**************************/
+/* BELOW 192*/
+/**************************/
+
+@media (max-width: 100px) {
+  html {
+    font-size: 2%;
+  }
+  .tytle {
+    letter-spacing: 0.2px;
+  }
+  .sub-tytle {
+    letter-spacing: 0.1px;
+  }
+  p {
+    letter-spacing: 0px;
+  }
+  .grid {
+    column-gap: 5rem;
+    row-gap: 1.2rem;
+  }
+  .main-nav-list {
+    gap: 2.5rem;
+  }
+  .main-page-description {
+    gap: 6rem;
+  }
+  li .domains-sub-menu-list {
+    top: 20.5px;
+    width: 41px;
+  }
+
+  .description {
+    padding: 4rem;
+  }
+  .about-kobi {
+    margin: 4rem 0;
+    padding: 0 1.5rem;
+  }
+
+  .grid-footer {
+    padding: 2rem 3rem;
+  }
+  .nav-col {
+    padding: 2rem 6rem;
+  }
+}
