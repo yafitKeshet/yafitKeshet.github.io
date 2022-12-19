@@ -365,3 +365,11 @@ li .domains-sub-menu-list {
     padding: 2rem 6rem;
   }
 }
+@media not all and (min-resolution: 0.001dpcm) {
+  @media {
+    .safari_only {
+      color: #0000ff;
+      background-color: #cccccc;
+    }
+  }
+}
