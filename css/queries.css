@@ -121,7 +121,7 @@ li .domains-sub-menu-list {
 /**************************/
 /* BELOW 912px  */
 /**************************/
-/* 
+
 @media (max-width: 57em) {
   html {
     font-size: 45%;
@@ -156,7 +156,7 @@ li .domains-sub-menu-list {
   .nav-col {
     padding: 2rem 5rem;
   }
-} */
+}
 
 /**************************/
 /* BELOW 816px  */
