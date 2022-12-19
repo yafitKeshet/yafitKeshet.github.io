@@ -368,6 +368,6 @@ li .domains-sub-menu-list {
 @media not all and (min-resolution: 0.001dpcm) {
   .safari_only {
     color: #0000ff;
-    background-color: #cccccc;
+    background-color: #841818;
   }
 }
