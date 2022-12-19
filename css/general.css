@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  background-color: #f8f9fa;
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #1d1716;
+  text-align: right;
+
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: -0.4px;
+  margin-bottom: 1rem;
+}
+.tytle {
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.75px;
+  margin-bottom: 1rem;
+}
+.sub-tytle {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.75px;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+.section {
+  padding-top: 15rem;
+}
+
+.container {
+  width: 110rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 3.5rem;
+}
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-2-rows {
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 400;
+  border-radius: 1rem;
+  color: #fff4e6d2;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: #1d1716;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #402a23;
+}
+
+.icn {
+  height: 4.5rem;
+  width: 4.5rem;
+  margin-bottom: 0rem;
+}
+.icn:hover {
+  transform: scale(1.2);
+}
+
+.box {
+  border: 0.2rem dotted #1d1716;
+  padding: 2rem 2rem 2rem 2rem;
+  margin-bottom: 3rem;
+}
+.box h2 {
+  margin-top: 0;
+}
+.box p {
+  margin-bottom: 0;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-box-img {
+  height: 17rem;
+  align-self: center;
+}
