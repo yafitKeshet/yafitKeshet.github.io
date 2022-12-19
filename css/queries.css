@@ -56,7 +56,7 @@ li .domains-sub-menu-list {
 /**************************/
 /* BELOW 1136px (Landscape Tablets) */
 /**************************/
-
+/* 
 @media (max-width: 71em) {
   html {
     font-size: 56.25%;
@@ -80,13 +80,13 @@ li .domains-sub-menu-list {
   .nav-col {
     padding: 2rem 4.8rem;
   }
-}
+} */
 
 /**************************/
 /* BELOW 1008px  */
 /**************************/
 
-@media (max-width: 63em) {
+/* @media (max-width: 63em) {
   html {
     font-size: 50%;
   }
@@ -116,7 +116,7 @@ li .domains-sub-menu-list {
   .nav-col {
     padding: 2rem 4rem;
   }
-}
+} */
 
 /**************************/
 /* BELOW 912px  */
