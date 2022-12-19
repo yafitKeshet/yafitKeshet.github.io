@@ -202,7 +202,7 @@ li .domains-sub-menu-list {
 /* BELOW 736  */
 /**************************/
 
-/* @media (max-width: 46em) {
+@media (max-width: 46em) {
   html {
     font-size: 38%;
   }
@@ -236,12 +236,12 @@ li .domains-sub-menu-list {
   .nav-col {
     padding: 2rem 6rem;
   }
-} */
+}
 
 /**************************/
 /* BELOW 592  */
 /**************************/
-/* 
+
 @media (max-width: 37em) {
   html {
     font-size: 30%;
@@ -276,12 +276,12 @@ li .domains-sub-menu-list {
   .nav-col {
     padding: 2rem 6rem;
   }
-} */
+}
 
 /**************************/
 /* BELOW 416  (Phones)*/
 /**************************/
-/* 
+
 @media (max-width: 26em) {
   html {
     font-size: 20%;
@@ -321,7 +321,7 @@ li .domains-sub-menu-list {
 /**************************/
 /* BELOW 192*/
 /**************************/
-/* 
+
 @media (max-width: 12em) {
   html {
     font-size: 10%;
@@ -364,4 +364,4 @@ li .domains-sub-menu-list {
   .nav-col {
     padding: 2rem 6rem;
   }
-}  */
+}
