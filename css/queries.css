@@ -370,7 +370,7 @@ li .domains-sub-menu-list {
 /* BELOW 48*/
 /**************************/
 
-@media (max-width: 3em) {
+@media screen and (max-width: 3em) {
   html {
     font-size: 2%;
   }
