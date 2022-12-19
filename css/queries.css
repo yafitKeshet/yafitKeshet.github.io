@@ -282,9 +282,9 @@ li .domains-sub-menu-list {
 /* BELOW 416  (Phones)*/
 /**************************/
 
-@media (max-width: 26em) {
+@media (max-width: 30em) {
   html {
-    font-size: 20%;
+    font-size: 10%;
   }
 
   .grid {
