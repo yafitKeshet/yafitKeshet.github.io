@@ -284,7 +284,7 @@ li .domains-sub-menu-list {
 
 @media (max-width: 26em) {
   html {
-    font-size: 5%;
+    font-size: 20%;
   }
 
   .grid {
@@ -324,7 +324,7 @@ li .domains-sub-menu-list {
 
 @media (max-width: 12em) {
   html {
-    font-size: 10%;
+    font-size: 5%;
   }
   .tytle {
     letter-spacing: 0.2px;
