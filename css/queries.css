@@ -366,10 +366,8 @@ li .domains-sub-menu-list {
   }
 }
 @media not all and (min-resolution: 0.001dpcm) {
-  @media {
-    .safari_only {
-      color: #0000ff;
-      background-color: #cccccc;
-    }
+  .safari_only {
+    color: #0000ff;
+    background-color: #cccccc;
   }
 }
