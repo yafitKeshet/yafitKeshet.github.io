@@ -286,6 +286,9 @@ li .domains-sub-menu-list {
   html {
     font-size: 10%;
   }
+  .container {
+    width: 10em;
+  }
   .main-header {
     background-color: #fff4e6d2 !important;
   }
@@ -295,7 +298,7 @@ li .domains-sub-menu-list {
     row-gap: 1.2rem;
   }
   .main-nav-list {
-    gap: 2.5rem;
+    gap: 2em;
   }
   .main-page-description {
     gap: 6rem;
