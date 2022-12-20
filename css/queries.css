@@ -243,6 +243,10 @@ li .domains-sub-menu-list {
     width: 70px;
   }
 
+  .flex-box-img {
+    height: 15rem;
+  }
+
   .description {
     padding: 4rem;
   }
