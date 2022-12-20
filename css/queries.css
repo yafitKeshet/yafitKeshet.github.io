@@ -212,7 +212,7 @@ li .domains-sub-menu-list {
 
 @media (max-width: 780px) {
   html {
-    font-size: 20%;
+    font-size: 30%;
   }
   .main-header {
     padding: 0;
@@ -231,8 +231,8 @@ li .domains-sub-menu-list {
     gap: 6rem;
   }
   li .domains-sub-menu-list {
-    top: 20px;
-    width: 41px;
+    top: 31px;
+    width: 62px;
   }
   #sub-link:hover,
   #sub-link:active {
