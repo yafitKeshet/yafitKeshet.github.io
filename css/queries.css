@@ -243,6 +243,9 @@ li .domains-sub-menu-list {
     width: 70px;
   }
 
+  .flex-box {
+    gap: 2rem;
+  }
   .flex-box-img {
     height: 15rem;
   }
