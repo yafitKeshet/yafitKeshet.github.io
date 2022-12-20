@@ -54,7 +54,7 @@ li .domains-sub-menu-list {
 }
 
 /**************************/
-/* BELOW 1136px (Landscape Tablets) */
+/* BELOW 1136px  */
 /**************************/
 
 @media (max-width: 71em) {
@@ -104,6 +104,10 @@ li .domains-sub-menu-list {
   li .domains-sub-menu-list {
     top: 51px;
     width: 103px;
+  }
+  #sub-link:hover,
+  #sub-link:active {
+    width: 100px;
   }
 
   .description {
@@ -181,6 +185,10 @@ li .domains-sub-menu-list {
     top: 43.5px;
     width: 86.5px;
   }
+  #sub-link:hover,
+  #sub-link:active {
+    width: 80px;
+  }
 
   .description {
     padding: 3rem;
@@ -199,92 +207,12 @@ li .domains-sub-menu-list {
 }
 
 /**************************/
-/* BELOW 736  */
-/**************************/
-/* 
-@media (max-width: 46em) {
-  html {
-    font-size: 38%;
-  }
-
-  .grid {
-    column-gap: 3rem;
-    row-gap: 1.2rem;
-  }
-  .main-nav-list {
-    gap: 2.5rem;
-  }
-  .main-page-description {
-    gap: 6rem;
-  }
-  li .domains-sub-menu-list {
-    top: 39.5px;
-    width: 78px;
-  }
-
-  .description {
-    padding: 4rem;
-  }
-  .about-kobi {
-    margin: 4rem 0;
-    padding: 0 1.5rem;
-  }
-
-  .grid-footer {
-    padding: 3rem 3rem;
-  }
-  .nav-col {
-    padding: 2rem 6rem;
-  }
-} */
-
-/**************************/
-/* BELOW 592  */
-/**************************/
-
-/* @media (max-width: 37em) {
-  html {
-    font-size: 30%;
-  }
-
-  .grid {
-    column-gap: 5rem;
-    row-gap: 1.2rem;
-  }
-  .main-nav-list {
-    gap: 2.5rem;
-  }
-  .main-page-description {
-    gap: 6rem;
-  }
-  li .domains-sub-menu-list {
-    top: 31px;
-    width: 62px;
-  }
-
-  .description {
-    padding: 4rem;
-  }
-  .about-kobi {
-    margin: 4rem 0;
-    padding: 0 1.5rem;
-  }
-
-  .grid-footer {
-    padding: 2rem 3rem;
-  }
-  .nav-col {
-    padding: 2rem 6rem;
-  }
-} */
-
-/**************************/
 /* Phones*/
 /**************************/
 
 @media (max-width: 780px) {
   html {
-    font-size: 10%;
+    font-size: 20%;
   }
   .main-header {
     padding: 0;
@@ -303,8 +231,12 @@ li .domains-sub-menu-list {
     gap: 6rem;
   }
   li .domains-sub-menu-list {
-    top: 20.5px;
+    top: 20px;
     width: 41px;
+  }
+  #sub-link:hover,
+  #sub-link:active {
+    width: 40px;
   }
 
   .description {
