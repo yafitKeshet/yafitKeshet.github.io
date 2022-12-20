@@ -1,3 +1,7 @@
+.description-text2 {
+  display: none;
+}
+
 .nav-open li ul {
   opacity: 1;
   pointer-events: auto;
@@ -221,8 +225,8 @@ li .domains-sub-menu-list {
     width: 90%;
   }
   .grid {
-    column-gap: 5rem;
-    row-gap: 1.2rem;
+    column-gap: 2rem;
+    row-gap: 1rem;
   }
   .main-nav-list {
     gap: 2em;
@@ -236,7 +240,7 @@ li .domains-sub-menu-list {
   }
   #sub-link:hover,
   #sub-link:active {
-    width: 40px;
+    width: 70px;
   }
 
   .description {
@@ -244,7 +248,18 @@ li .domains-sub-menu-list {
   }
   .about-kobi {
     margin: 4rem 0;
-    padding: 0 1.5rem;
+    padding: 0;
+  }
+  .about-img {
+    margin-top: 1rem;
+    width: 55%;
+  }
+  .description-text2 {
+    padding-top: 3rem;
+    display: block;
+  }
+  .description-text1 {
+    display: none;
   }
 
   .grid-footer {
