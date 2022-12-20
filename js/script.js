@@ -58,6 +58,10 @@ allLinks.forEach(function (link) {
       const sectionEl = document.querySelector(href);
       sectionEl.scrollIntoView({ behavior: "smooth" });
     }
+
+    if (href.startsWith("tel")) {
+      window.open(href, "_self");
+    }
   });
 });
 
