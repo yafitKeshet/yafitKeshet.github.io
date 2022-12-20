@@ -279,7 +279,7 @@ li .domains-sub-menu-list {
 } */
 
 /**************************/
-/* BELOW 416  (Phones)*/
+/* Phones*/
 /**************************/
 
 @media (max-width: 780px) {
@@ -287,12 +287,10 @@ li .domains-sub-menu-list {
     font-size: 10%;
   }
   .main-header {
-    background-color: #fff4e6d2 !important;
+    padding: 0;
   }
   .container {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    width: 90%;
   }
   .grid {
     column-gap: 5rem;
