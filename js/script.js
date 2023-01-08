@@ -62,6 +62,10 @@ allLinks.forEach(function (link) {
     if (href.startsWith("tel")) {
       window.open(href, "_self");
     }
+
+    if (href.startsWith("mailto:")) {
+      document.location.href = href;
+    }
   });
 });
 
@@ -90,3 +94,10 @@ allBtnsSubmit.forEach(function (btnSubmit) {
     alert("הודעתך נשלחה, \n  נטפל בה בקרוב");
   });
 });
+
+///////////////////////////////////////////////////////////
+// Set current year
+///////////////////////////////////////////////////////////
+const yearEl = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear;
